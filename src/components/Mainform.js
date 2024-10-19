@@ -10,7 +10,7 @@ const steps = [
 ];
 
 const Mainform = () => {
-  const [formData, setFormData] = useState({
+  const [] = useState({
     client: {},    // Client form data
     installer: {}, // Installer form data
     system: {}     // System form data
