@@ -10,11 +10,7 @@ const steps = [
 ];
 
 const Mainform = () => {
-  const [] = useState({
-    client: {},    // Client form data
-    installer: {}, // Installer form data
-    system: {}     // System form data
-  });
+
   
   const [currentStep, setCurrentStep] = useState(0);
 
