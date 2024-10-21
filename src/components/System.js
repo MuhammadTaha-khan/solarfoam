@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 const SolarSystemForm = () => {
@@ -37,12 +36,16 @@ const SolarSystemForm = () => {
 
   return (
     <div className="p-6 bg-gray-">
-      <h2 className="text-2xl font-bold mb-1  text-start py-2 px-3 text-white bg-[#526042]">System Information</h2>
+      <h2 className="text-2xl font-bold mb-1  text-start py-2 px-3 text-white bg-[#526042]">
+        System Information
+      </h2>
       <table className="table-auto w-full border-collapse border border-gray-300">
         <tbody>
           {/* System Size */}
           <tr className="border-2 border-gray-400">
-            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">System Size</td>
+            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">
+              System Size
+            </td>
             <td className="border  p-1 border-r-white">No. of Panels</td>
             <td className="border  p-1" colSpan="2">
               <input
@@ -77,7 +80,9 @@ const SolarSystemForm = () => {
 
           {/* Panel Make & Model */}
           <tr className="border-2 border-gray-400">
-            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">Panel Make & Model</td>
+            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">
+              Panel Make & Model
+            </td>
             <td className="border border-gray-300 p-1 " colSpan="4">
               <input
                 type="text"
@@ -100,8 +105,12 @@ const SolarSystemForm = () => {
 
           {/* Inverter Capacity & Type */}
           <tr>
-            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">Inverter Capacity & Type</td>
-            <td className="border border-gray-300 border-r-white ">Rated Capacity</td>
+            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">
+              Inverter Capacity & Type
+            </td>
+            <td className="border border-gray-300 border-r-white ">
+              Rated Capacity
+            </td>
             <td className="border p-1 border-gray-00 " colSpan="2">
               <input
                 type="text"
@@ -135,8 +144,11 @@ const SolarSystemForm = () => {
 
           {/* Second Set of Inverters */}
           <tr>
-            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">Inverter Make & Model</td>
-            <td className="border border-gray-300 " colSpan="2">Make
+            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">
+              Inverter Make & Model
+            </td>
+            <td className="border border-gray-300 " colSpan="2">
+              Make
               <input
                 type="text"
                 name="invMake"
@@ -145,7 +157,8 @@ const SolarSystemForm = () => {
                 className="w-full p-1 border border-gray-300"
               />
             </td>
-            <td className="border border-gray-300 " colSpan="2">Model
+            <td className="border border-gray-300 " colSpan="2">
+              Model
               <input
                 type="text"
                 name="invModel"
@@ -154,7 +167,8 @@ const SolarSystemForm = () => {
                 className="w-full p-1 border border-gray-300"
               />
             </td>
-            <td className="border border-gray-300 " colSpan="4">Inverter Serial Number
+            <td className="border border-gray-300 " colSpan="4">
+              Inverter Serial Number
               <input
                 type="text"
                 name="invSerial"
@@ -167,8 +181,11 @@ const SolarSystemForm = () => {
 
           {/* Second Set of Solar Panels */}
           <tr>
-            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">Second Set of Solar Panels</td>
-            <td className="border border-gray-300 ">Make
+            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">
+              Second Set of Solar Panels
+            </td>
+            <td className="border border-gray-300 ">
+              Make
               <input
                 type="text"
                 name="secondSetPanelsMake"
@@ -177,7 +194,8 @@ const SolarSystemForm = () => {
                 className="w-full p-1 border border-gray-300"
               />
             </td>
-            <td className="border border-gray-300 " colSpan="2">Model
+            <td className="border border-gray-300 " colSpan="2">
+              Model
               <input
                 type="text"
                 name="secondSetPanelsModel"
@@ -186,7 +204,8 @@ const SolarSystemForm = () => {
                 className="w-full p-1 border border-gray-300"
               />
             </td>
-            <td className="border border-gray-300 "># of Panels
+            <td className="border border-gray-300 ">
+              # of Panels
               <input
                 type="number"
                 name="secondSetPanelsCount"
@@ -195,7 +214,8 @@ const SolarSystemForm = () => {
                 className="w-full p-1 border border-gray-300"
               />
             </td>
-            <td className="border border-gray-300 ">Watts/Panel
+            <td className="border border-gray-300 ">
+              Watts/Panel
               <input
                 type="number"
                 name="secondSetPanelsWatt"
@@ -204,7 +224,8 @@ const SolarSystemForm = () => {
                 className="w-full p-1 border border-gray-300"
               />
             </td>
-            <td className="border border-gray-300 " colSpan="3">KW of 2nd Set
+            <td className="border border-gray-300 " colSpan="3">
+              KW of 2nd Set
               <input
                 type="number"
                 name="secondSetPanelsKW"
@@ -215,57 +236,58 @@ const SolarSystemForm = () => {
             </td>
           </tr>
 
-
           {/* Second set of Inverters */}
-<tr>
-  <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">Second set of Inverters</td>
-  <td className="border border-gray-300 ">
-    Make
-    <input
-      type="text"
-      name="secondInverterMake"
-      value={formValues.secondInverterMake}
-      onChange={handleChange}
-      className="w-full p-1 border border-gray-300"
-    />
-  </td>
-  <td className="border border-gray-300 " colSpan="2">
-    Model
-    <input
-      type="text"
-      name="secondInverterModel"
-      value={formValues.secondInverterModel}
-      onChange={handleChange}
-      className="w-full p-1 border border-gray-300"
-    />
-  </td>
-  <td className="border border-gray-300 " colSpan="2">
-    Rated Capacity
-    <input
-      type="number"
-      name="secondInverterCapacity"
-      value={formValues.secondInverterCapacity}
-      onChange={handleChange}
-      className="w-full p-1 border border-gray-300"
-    />
-  </td>
-  <td className="border border-gray-300 " colSpan="3">
-    Inverter Serial Number
-    <input
-      type="text"
-      name="secondInverterSerial"
-      value={formValues.secondInverterSerial}
-      onChange={handleChange}
-      className="w-full p-1 border border-gray-300"
-    />
-  </td>
-</tr>
-
-
+          <tr>
+            <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">
+              Second set of Inverters
+            </td>
+            <td className="border border-gray-300 ">
+              Make
+              <input
+                type="text"
+                name="secondInverterMake"
+                value={formValues.secondInverterMake}
+                onChange={handleChange}
+                className="w-full p-1 border border-gray-300"
+              />
+            </td>
+            <td className="border border-gray-300 " colSpan="2">
+              Model
+              <input
+                type="text"
+                name="secondInverterModel"
+                value={formValues.secondInverterModel}
+                onChange={handleChange}
+                className="w-full p-1 border border-gray-300"
+              />
+            </td>
+            <td className="border border-gray-300 " colSpan="2">
+              Rated Capacity
+              <input
+                type="number"
+                name="secondInverterCapacity"
+                value={formValues.secondInverterCapacity}
+                onChange={handleChange}
+                className="w-full p-1 border border-gray-300"
+              />
+            </td>
+            <td className="border border-gray-300 " colSpan="3">
+              Inverter Serial Number
+              <input
+                type="text"
+                name="secondInverterSerial"
+                value={formValues.secondInverterSerial}
+                onChange={handleChange}
+                className="w-full p-1 border border-gray-300"
+              />
+            </td>
+          </tr>
 
           {/* Overall System Size */}
           <tr>
-            <td className="border border-gray-300  font-bold">Overall System Size</td>
+            <td className="border border-gray-300  font-bold">
+              Overall System Size
+            </td>
             <td className="border border-gray-300 " colSpan="8">
               <input
                 type="number"
@@ -283,10 +305,6 @@ const SolarSystemForm = () => {
 };
 
 export default SolarSystemForm;
-
-
-
-
 
 // import React, { useState } from "react";
 
@@ -324,7 +342,7 @@ export default SolarSystemForm;
 //       <table className="table-auto w-full border-collapse border border-gray-300">
 //         <tbody>
 //           {/* System Size */}
-          
+
 //           <tr>
 //           <td for="name" class="w-1/3 md:w-1/6  text-xs font-medium text-white bg-[#7b9162]  placeholder border-b-2 border-white" >COMPANY NAME</td>
 //             <td className="border border-gray-300 ">No. of Panels</td>
@@ -455,7 +473,7 @@ export default SolarSystemForm;
 //           </tr>
 
 //             <h5 className="w-full">For more than one make/model of panels on a single inverter, use this area to define the additional solar panels</h5>
-         
+
 //           {/* Second Set of Solar Panels */}
 //           <tr>
 //             <label for="name" class="w-1/3 md:w-1/6  text-xs font-medium text-white bg-[#7b9162]  placeholder border-b-2 border-white" >SECOND SET OF SOLAR PANEL</label>
@@ -533,7 +551,6 @@ export default SolarSystemForm;
 //               />
 //             </td>
 
-            
 //             <td className="border border-gray-300 ">
 //             Model
 //               <input
@@ -587,15 +604,6 @@ export default SolarSystemForm;
 // };
 
 // export default SolarSystemForm;
-
-
-
-
-
-
-
-
-
 
 // import React, { useState } from "react";
 
@@ -686,7 +694,7 @@ export default SolarSystemForm;
 //               />
 //             </td>
 //             <td className="border border-gray-300  " colSpan="4">
-            
+
 //               <input
 //                 type="text"
 //                 name="panelModel"
@@ -767,7 +775,6 @@ export default SolarSystemForm;
 //             </td>
 //           </tr>
 
-
 //           {/* Second Set of Solar Panels */}
 //           <tr>
 //             <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">Second Set of Solar Panels</td>
@@ -823,62 +830,60 @@ export default SolarSystemForm;
 //             </td>
 //           </tr>
 
-
-
-          // {/* Second set of Inverters */}
-          // <tr>
-          //   <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">Second set of Inverters</td>
-          //   <td className="border border-gray-300 ">
-          //   Make
-          //     <input
-          //       type="text"
-          //       name="secondSetPanelsMake"
-          //       value={formValues.secondSetPanelsMake}
-          //       onChange={handleChange}
-          //       className="w-full p-1 border border-gray-300"
-          //     />
-          //   </td>
-          //   <td className="border border-gray-300 " colSpan="2">
-          //   Model
-          //     <input
-          //       type="text"
-          //       name="secondSetPanelsModel"
-          //       value={formValues.secondSetPanelsModel}
-          //       onChange={handleChange}
-          //       className="w-full p-1 border border-gray-300"
-          //     />
-          //   </td>
-          //   <td className="border border-gray-300 " colSpan="2">
-          //   Rated Capacity
-          //     <input
-          //       type="number"
-          //       name="secondSetPanelsCount"
-          //       value={formValues.secondSetPanelsCount}
-          //       onChange={handleChange}
-          //       className="w-full p-1 border border-gray-300"
-          //     />
-          //   </td>
-          //   <td className="border border-gray-300 " colSpan="3">
-          //   Inverter Serial Number
-          //     <input
-          //       type="number"
-          //       name="secondSetPanelsWatt"
-          //       value={formValues.secondSetPanelsWatt}
-          //       onChange={handleChange}
-          //       className="w-full p-1 border border-gray-300"
-          //     />
-          //   </td>
-          //   {/* <td className="border border-gray-300 " colSpan="3">
-          //   KW of 2nd Set
-          //     <input
-          //       type="number"
-          //       name="secondSetPanelsKW"
-          //       value={formValues.secondSetPanelsKW}
-          //       onChange={handleChange}
-          //       className="w-full p-1 border border-gray-300"
-          //     />
-          //   </td> */}
-          // </tr>
+// {/* Second set of Inverters */}
+// <tr>
+//   <td className="w-1/3 md:w-1/6 text-xs font-medium text-white bg-[#7b9162]  border-b-2 border-white">Second set of Inverters</td>
+//   <td className="border border-gray-300 ">
+//   Make
+//     <input
+//       type="text"
+//       name="secondSetPanelsMake"
+//       value={formValues.secondSetPanelsMake}
+//       onChange={handleChange}
+//       className="w-full p-1 border border-gray-300"
+//     />
+//   </td>
+//   <td className="border border-gray-300 " colSpan="2">
+//   Model
+//     <input
+//       type="text"
+//       name="secondSetPanelsModel"
+//       value={formValues.secondSetPanelsModel}
+//       onChange={handleChange}
+//       className="w-full p-1 border border-gray-300"
+//     />
+//   </td>
+//   <td className="border border-gray-300 " colSpan="2">
+//   Rated Capacity
+//     <input
+//       type="number"
+//       name="secondSetPanelsCount"
+//       value={formValues.secondSetPanelsCount}
+//       onChange={handleChange}
+//       className="w-full p-1 border border-gray-300"
+//     />
+//   </td>
+//   <td className="border border-gray-300 " colSpan="3">
+//   Inverter Serial Number
+//     <input
+//       type="number"
+//       name="secondSetPanelsWatt"
+//       value={formValues.secondSetPanelsWatt}
+//       onChange={handleChange}
+//       className="w-full p-1 border border-gray-300"
+//     />
+//   </td>
+//   {/* <td className="border border-gray-300 " colSpan="3">
+//   KW of 2nd Set
+//     <input
+//       type="number"
+//       name="secondSetPanelsKW"
+//       value={formValues.secondSetPanelsKW}
+//       onChange={handleChange}
+//       className="w-full p-1 border border-gray-300"
+//     />
+//   </td> */}
+// </tr>
 
 //           {/* Overall System Size */}
 //           <tr>
@@ -900,9 +905,3 @@ export default SolarSystemForm;
 // };
 
 // export default SolarSystemForm;
-
-
-
-
-
-
