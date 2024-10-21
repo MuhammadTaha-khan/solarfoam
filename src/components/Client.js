@@ -2,7 +2,7 @@ import React from 'react';
 
 const Client = () => {
   return (
-    <div className=" p-4">
+    <div className=" md:p-4">
     <h2 class="text-2xl font-bold mb-1  text-start py-2 px-3 text-white bg-[#212b35]">Client Information</h2>
     <form>
       {/* <!-- Main grid layout --> */}
@@ -91,8 +91,9 @@ const Client = () => {
             </div>
     
             {/* <!-- Net Consumption --> */}
-            <div class="flex gap-x-5 ">
-              <label for="net_consumption" class="w-1/6 text-xs font-medium text-white bg-gray-700 p-2 border-b-2 border-t-2 border-white">NET CONSUMPTION</label>
+            <div class="flex flex-row gap-x-5 ">
+                       <label for="net_consumption" class="md:w-1/6 text-xs font-medium text-white bg-gray-700 p-2 border-b-2 border-t-2 border-white w-1/4">NET CONSUMPTION</label>
+                      <div className=' md:flex md:flex-row  gap-x-5'>
                       <div class="">
                         <label for="phone" class="block text-xs font-light text-gray-700">RESIDENTIAL CONSUPTION OF CLIENT</label>
                         <input type="text" id="phone" name="phone" placeholder="1,853"  class="mt-1 block w-full p-2 border  border-gray-300  " />
@@ -104,6 +105,7 @@ const Client = () => {
                       <div>
                         <label for="phone" class="block text-xs font-light text-gray-700">NET CONSUMPTION OF CLIENT</label>
                         <input type="text" id="phone" name="phone" placeholder="-8,466" class="mt-1 block w-full p-2 border border-gray-300  " />
+                      </div>
                       </div>
                  </div>
           </div>
