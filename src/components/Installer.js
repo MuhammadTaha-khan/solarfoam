@@ -7,7 +7,7 @@ import React from 'react';
 const Client = () => {
   return (
     <div className=" md:p-4">
-    <h2 class="text-2xl font-bold mb-1  text-start py-2 px-3 text-white bg-[#526042]">CINSTALLER INFORMATION</h2>
+    <h2 class="text-2xl font-bold mb-1  text-start py-2 px-3 text-white bg-[#526042]">INSTALLER INFORMATION</h2>
     <form>
       {/* <!-- Main grid layout --> */}
       <div class="grid grid-cols-1 md:grid-cols- gap-x- gap-y-">

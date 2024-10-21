@@ -11,7 +11,7 @@ const Client = () => {
         <div class="flex">
           <label for="name" class="w-1/3 md:w-1/6  text-xs font-medium text-white bg-[#4e74a1] p-1 placeholder border-b-2 border-white " >SYSTEM SIZE</label>
           <div className='flex flex-col md:flex-row justify-   gap-x-2 px-5 border p-1'>
-                <div className='flex flex-col md:flex-row item-center p-'>
+                <div className='flex flex-col md:flex-row items-center p-'>
                       
                     <label for="phone" class="block text-xs font-light text-gray-700  pr-1">No. of Panels =</label>
                         <input type="text" id="phone" name="phone" placeholder="14"  class="mt- block p-1 border border-gray-300 md:w-16 w-full text-centerw-16 text-center"/>
